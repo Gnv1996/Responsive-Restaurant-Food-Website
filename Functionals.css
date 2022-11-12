@@ -1,0 +1,134 @@
+*{
+   margin: 0px;
+   padding: 0px;
+}
+.navbar{
+    background-color: rgb(122, 83, 83);
+    height:80px ;
+    width: 100%;
+   
+}
+
+.navbar ul{
+    display: flex;
+    padding: 10px;
+}
+.navbar ul li{
+    padding: 10px;
+    list-style: none;
+    font-size: 20px;
+    color: white;
+  
+}
+.navbar ul li a{
+    text-decoration: none;
+    color: white;
+}
+
+.navbar ul li a:hover{
+    background-color: yellow;
+    border-radius: 6px;
+    cursor: pointer;
+    color: black;
+    transform: scale(1.1);   
+}
+
+.footer{
+    background-color: rgb(5, 4, 4);
+    color: white;
+    display: grid;
+    grid: auto auto/auto auto auto auto;
+    margin-top: 10px;
+
+}
+
+.footer-list ul li{
+    list-style: none;
+    text-decoration: none;
+    padding: 5px;
+  
+}
+.footer-list{
+   margin: 20px;
+}
+
+.homepage{
+    background: url('./images/slider-03.jpg');
+    height: 90vh;
+    width: 100%;
+    position: -webkit-sticky;
+
+  background-size: cover;
+ 
+}
+
+.btn{
+    color: white;
+    background-color: red;
+    height: 40px;
+    border-radius: 6px;
+    font-family: 'Courier New', Courier, monospace;
+    width: 100px;
+
+
+}
+.btn:hover{
+    font-weight: bold;
+    transform: scale(1.1);
+    background-color: yellowgreen;
+    border-radius: 10px;
+}
+
+
+.content {
+   text-align: center;
+   font-weight:  bold;
+   font-size: 25px;
+   color: black;
+ font-family: cursive;
+  
+
+  
+}
+.bg{
+    background: url('./images/rocket.png');
+    height: 100vh;
+}
+.about{
+    display: grid;
+    grid: auto auto/auto auto;
+    background-color: bisque;
+   
+}
+.right{
+   padding: 20px 10px 0px 20px;
+    font-weight: bold;
+    font-size: 15px;
+   background-color: yellowgreen;
+   border-radius: 40px;
+   margin-top: 15px;
+}
+
+.service{
+    display: grid;
+    grid: auto auto/auto auto auto;
+    background-color: bisque;
+   
+
+}
+.ser{
+    border: 2px brown solid;
+    border-radius: 10px;
+    margin: 20px 0px 20px 0px ;
+   
+    
+
+}
+.tk{
+    background-color: yellow;
+}
+.tt{
+    background-color: black;
+    text-align: center;
+    color: white;
+}
